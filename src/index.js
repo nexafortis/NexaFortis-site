@@ -1,1 +1,1 @@
-import React from 'react'; import ReactDOM from 'react-dom/client'; import './index.css'; import NexaFortisLanding from './NexaFortisLanding'; const root = ReactDOM.createRoot(document.getElementById('root')); root.render(<NexaFortisLanding />);
+import React from 'react'; import ReactDOM from 'react-dom/client'; import './output.css'; import NexaFortisLanding from './NexaFortisLanding'; const root = ReactDOM.createRoot(document.getElementById('root')); root.render(<NexaFortisLanding />);

@@ -13,8 +13,9 @@
     "tailwindcss": "^3.3.2"
   },
   "scripts": {
+    "build:css": "tailwindcss -i ./src/index.css -o ./src/output.css --minify",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
